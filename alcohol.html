@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Alcoholic beverages</title>
+  </head>
+  <style>
+   
+    
+  
+    
+    
+    </style>
+  <body>
+    <div class="container-fluid">
+        <div class="row bg-primary p-2 align-items-center">
+            <div class="text text-danger h4 col-md-3 d-none d-md-block col-lg-3 col-xl-3">
+                Welcome to our  store
+            </div>
+              <div class="telephone col-md-3 d-none d-md-block col-lg-3 col-xl-3 text-light">
+                (+374) 55668858
+              </div>
+              <div class="gumar col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2">
+                  <select class="custom-select">
+                      <option value="dram">AMD</option>
+                      <option value="dolar">USD</option>
+                      <option value="rubli">RUB</option>
+                      <option value="euro">EUR</option>
+                  </select>
+              </div>
+                  <div class="language col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2">
+                      <select class="custom-select" >
+                          <option value="armenian">AM</option>
+                          <option value="russian">RU</option>
+                          <option value="english">EN</option>
+                      </select>
+                  </div>
+                  <button type="button" class="btn bg-warning col-md-2 col-lg-2 col-xl-2 d-none d-md-block">
+                      shopping list <span class="badge badge-light bg-success">5</span>
+                 </button>
+
+          </div>
+              <div class="row  p-4 bg-success ">
+                  <div class="logo col-6 col-sm-7 col-md-5">
+                      <a href="index.html" class="link">
+                          <img src="img/logo.jpg" alt=""  width="60" height="60">
+                      </a>
+                  </div>
+                     <div class="search d-none d-md-block col-md-5">
+                      <form class="form-inline my-2 my-lg-0">
+                          <input class="form-control mr-sm-2" type="search" placeholder="Search in store" aria-label="Search">
+                          <button class="btn btn-danger my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                     </div>
+                         <div class="dropdown col-6  col-sm-5 col-md-2">
+                               <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  My Account
+                               </button>
+                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" data-toggle="modal" data-target="#exampleModal" href="#">Login</a>
+                                    <a class="dropdown-item" data-toggle="modal" data-target="#register" href="#">Register</a>
+                                    <a class="dropdown-item" href="#">My orders</a>
+                                    <a class="dropdown-item" href="#">Account settings</a>
+                                  </div>
+                          </div>
+              </div>
+                      <div class="row p-5 bg-dark ">
+                             <a class="dropdown-toggle d-none d-md-block col-md-2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Pastry
+                             </a>
+                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                          <a class="dropdown-item" href="bread.html">bread</a>
+                                          <a class="dropdown-item" href="pizza.html">pizza</a>
+                                          <a class="dropdown-item" href="cookies.html">cookies</a>
+                                      </div>
+                                      <div class="dropdown d-none d-md-block col-md-2">
+                                          <a class=" bg-econdary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Groccery
+                                          </a>
+                                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="vegetables.html">Vegetables</a>
+                                                 <a class="dropdown-item" href="fruits.html">Fruits</a>
+                                              </div>
+                                      </div>
+                                          <div class="dropdown d-none d-md-block col-md-2">
+                                             <a class=" bg-econdary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Sweet
+                                              </a>
+                                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item" href="cakes.html">Cakes</a>
+                                                 <a class="dropdown-item" href="candy.html">Candy</a>
+                                              </div>
+                                          </div>
+                                          <div class="dropdown d-none d-md-block col-md-2">
+                                              <a class=" bg-econdary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                 Diary
+                                               </a>
+                                               <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                 <a class="dropdown-item" href="milk.html">milk</a>
+                                                  <a class="dropdown-item" href="cream.html">sour cream</a>
+                                                  <a class="dropdown-item" href="yogurt.html">yogurt</a>
+                                                  <a class="dropdown-item" href="tvarog.html">cottage cheese</a>
+                                               </div>
+                                           </div>
+                                           <div class="dropdown d-none d-md-block col-md-2">
+                                               <a class=" bg-econdary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                 Drinks
+                                               </a>
+                                                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                   <a class="dropdown-item" href="juices.html">juices</a>
+                                                   <a class="dropdown-item" href="drinks.html">carbonated drinks</a>
+                                                   <a class="dropdown-item" href="alcohol.html">alcoholic beverages</a>
+                                                  </div>
+                                           </div>
+                                                <div class="dropdown d-none d-md-block col-md-2">
+                                                     <a class=" bg-econdary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                     Meat
+                                                     </a>
+                                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                        <a class="dropdown-item" href="sausage.html">sausages</a>
+                                                        <a class="dropdown-item" href="meat.html">animal meat</a>
+                                                      </div>
+                                                  </div>
+                                                  <div class="row ">
+                                                      <div class="col-12 p-0 d-block d-md-none">
+                                                             <nav class="navbar navbar-expand-xl navbar-dark ">
+                                                      
+                                                      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="outline: none; border: none;">
+                                                        <span class="navbar-toggler-icon"></span>
+                                                      </button>
+                                                    
+                                                      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                                                        <ul class="navbar-nav mr-auto ml-auto ">
+                                                    
+                                                         
+                                                           <li class="nav-item dropdown text-center">
+                                                            <a class="d-md-none nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                              Pastry
+                                                            </a>
+                                                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                                              <a class="dropdown-item" href="bread.html">bread</a>
+                                                              <a class="dropdown-item" href="pizza.html">pizza</a>
+                                                              <a class="dropdown-item" href="cookies.html">cookies</a>
+                                                            </div>
+                                                          </li>
+                                                           <li class="nav-item dropdown text-center">
+                                                            <a class="d-md-none nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                              Groccery
+                                                            </a>
+                                                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                                              <a class="dropdown-item" href="vegetables.html">Vegetables</a>
+                                                              <a class="dropdown-item" href="fruits.html">Fruits</a>
+                                                            </div>
+                                                          </li>
+                                                           <li class="nav-item dropdown text-center">
+                                                            <a class="d-md-none nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                              Sweet
+                                                            </a>
+                                                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                                              <a class="dropdown-item" href="cakes.html">Cakes</a>
+                                                              <a class="dropdown-item" href="candy.html">Candy</a>
+                                                            </div>
+                                                            <li class="nav-item dropdown text-center">
+                                                              <a class="d-md-none nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                Diary
+                                                              </a>
+                                                              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                                                  <a class="dropdown-item" href="milk.html">milk</a>
+                                                                  <a class="dropdown-item" href="cream.html">sour cream</a>
+                                                                  <a class="dropdown-item" href="yogurt.html">yogurt</a>
+                                                                  <a class="dropdown-item" href="tvarog.html">cottage cheese</a>
+                                                              </div>
+                                                            </li>
+                                                             <li class="nav-item dropdown text-center">
+                                                              <a class="d-md-none nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                Drinks
+                                                              </a>
+                                                              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                                                  <a class="dropdown-item" href="juices.html">juices</a>
+                                                                  <a class="dropdown-item" href="drinks.html">carbonated drinks</a>
+                                                                  <a class="dropdown-item" href="alcohol.html">alcoholic beverages</a> 
+                                                              </div>
+                                                            </li>
+                                                             <li class="nav-item dropdown text-center">
+                                                              <a class="d-md-none  nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                Meat
+                                                              </a>
+                                                              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                                                  <a class="dropdown-item" href="sausage.html">sausages</a>
+                                                                  <a class="dropdown-item" href="meat.html">animal meat</a>
+                                                              </div>
+                                                          </li>
+                                                           
+                                                        </ul>
+                                                        
+                                                      </div>
+                                                    </nav>
+                                                      </div>     
+                                                    </div> 
+                       </div>
+                                            <div class="container-fluid">
+                                                <div class="row p-3 d-flex">
+                                                    <nav aria-label="breadcrumb" class="col-12 col-md-7" style="width: 100px;">
+                                                        <ol class="breadcrumb">
+                                                           <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                                           <li class="breadcrumb-item"><a href="#">Drinks</a></li>
+                                                           <li class="breadcrumb-item active" aria-current="page">Alcoholic beverages</li>
+                                                        </ol>
+                                                    </nav>
+                                                    <select class="custom-select w-25  col-12 col-md-3">
+                                                                <option selected>Sort by:/Choose</option>
+                                                                <option value="1">Low to High</option>
+                                                                <option value="3">Random</option>
+                                                                <option value="2">High to low </option>
+                                                            </select>
+                                                </div>
+                                                   
+                                                          <div class="row border-top">
+                                                            <div class="col-12 d-md-block col-md-3 bg-light sidebar  border mt-4 text-decoration-none  ">
+                                                              <div class="custom-control custom-switch">
+                                                                <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                                                                <label class="custom-control-label" for="customSwitch1">New and fresh things</label>
+                                                              </div>
+                                                            </div>
+                                                                      <div class="col-12 col-md-9 main border-right border-left w-100">
+                                                                        <div class="row justify-content-center">
+                                                                          <div class="card col-12 col-sm-12 col-md-6 border p-2 mx-auto mt-4 bg-dark">
+                                                                            <img src="img/armenia spitak gini.jpg" class="car d-img-top" alt="...">
+                                                                            <div class="card-body">
+                                                                              <h5 class="card-text"><a href="">'Armenia' spitak anapak gini</a><h5p>
+                                                                              <p class="card-text text-warning"> 3590 dram</p>
+                                                                              <a href="#" class="btn btn-primary">Add to cart</a>
+                                                                            </div>
+                                                                          </div>
+                                                                        </div>
+                                                                      </div>
+                                                                      <div class="row bg-dark">
+                                                                        <div class="card col-6 col-md-3" style="width: 18rem;">
+                                                                          <img src="img/armenia karmir.jpg" class="card-img-top" alt="...">
+                                                                          <div class="card-body d-flex flex-column justify-content-end bg-dark">
+                                                                            <h5 class="card-title"><a href="">'Armenia' karmir kisaqaxcr gini 750ml</a></h5>
+                                                                            <p class="card-text  text-warning"> 3460 dram</p>
+                                                                            <a href="#" class="btn btn-primary">Add to cart</a>
+                                                                          </div>
+                                                                        </div>
+                                                                        <div class="card col-6 col-md-3" style="width: 18rem;">
+                                                                          <img src="img/armenia anapak.jpg" class="card-img-top" alt="...">
+                                                                          <div class="card-body d-flex flex-column justify-content-end bg-dark">
+                                                                            <h5 class="card-title"><a href="">'Armenia' karmir anapak gini </a></h5>
+                                                                            <p class="card-text  text-warning"> 3500 dram</p>
+                                                                            <a href="#" class="btn btn-primary">Add to cart</a>
+                                                                          </div>
+                                                                        </div>
+                                                                        <div class="card col-6 col-md-3" style="width: 18rem;">
+                                                                          <img src="img/arax.jpg" class="card-img-top" alt="...">
+                                                                          <div class="card-body d-flex flex-column justify-content-end bg-dark">
+                                                                            <h5 class="card-title"><a href="">Rusakan arax 'Belaya Berezka' </a></h5>
+                                                                            <p class="card-text  text-warning"> 4400 dram</p>
+                                                                            <a href="#" class="btn btn-primary">Add to cart</a>
+                                                                          </div>
+                                                                        </div>
+                                                                        <div class="card col-6 col-md-3" style="width: 18rem;">
+                                                                          <img src="img/arax gold.jpg" class="card-img-top" alt="...">
+                                                                          <div class="card-body d-flex flex-column justify-content-end bg-dark">
+                                                                            <h5 class="card-title"><a href="">Rusakan arax 'Belaya Berezka' Gold</a></h5>
+                                                                            <p class="card-text  text-warning"> 5200 dram</p>
+                                                                            <a href="#" class="btn btn-primary">Add to cart</a>
+                                                                          </div>
+                                                                        </div>
+                                                                        <div class="card col-6 col-md-3" style="width: 18rem;">
+                                                                            <img src="img/vodka.jpg" class="card-img-top" alt="...">
+                                                                            <div class="card-body d-flex flex-column justify-content-end bg-dark">
+                                                                              <h5 class="card-title"><a href=""> Arax 'Skyy' 40% 1l</a></h5>
+                                                                              <p class="card-text  text-warning">7500 dram</p>
+                                                                              <a href="#" class="btn btn-primary">Add to cart</a>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="card col-6 col-md-3" style="width: 18rem;">
+                                                                            <img src="img/ararat.jpg" class="card-img-top" alt="...">
+                                                                            <div class="card-body d-flex flex-column justify-content-end bg-dark">
+                                                                              <h5 class="card-title"><a href="">Konyak 'Ararat Yntir' 7 tarekan</a></h5>
+                                                                              <p class="card-text  text-warning"> 24000 dram</p>
+                                                                              <a href="#" class="btn btn-primary">Add to cart</a>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="card col-6 col-md-3" style="width: 18rem;">
+                                                                            <img src="img/ararat1.jpg" class="card-img-top" alt="...">
+                                                                            <div class="card-body d-flex flex-column justify-content-end bg-dark">
+                                                                              <h5 class="card-title"><a href="">Konyak 'Ararat Vaspurakan' 15 tarekan 0.7l  </a></h5>
+                                                                              <p class="card-text  text-warning"> 28800 dram</p>
+                                                                              <a href="#" class="btn btn-primary">Add to cart</a>
+                                                                            </div>
+                                                                          </div>
+                                                                          <div class="card col-6 col-md-3" style="width: 18rem;">
+                                                                            <img src="img/ararat2.jpg" class="card-img-top" alt="...">
+                                                                            <div class="card-body d-flex flex-column justify-content-end bg-dark">
+                                                                              <h5 class="card-title"><a href="">Konyak 'Ararat Nairi' 20 tarekan</a></h5>
+                                                                              <p class="card-text  text-warning"> 41760 dram</p>
+                                                                              <a href="#" class="btn btn-primary">Add to cart</a>
+                                                                            </div>
+                                                                          </div>
+                                                                      </div>
+                                                            
+                                                          </div>
+
+                                            </div>
+                                            <div class="row p-1">
+                                              <nav class="navbar  bg-warning w-100  p-3  ">
+                                                <ul class="nav w-100 list-group-horizontal-md ">
+                                                  <li class=" text-center h4  col-md-3"><a href="" class="text-decoration-none text-dark">Contact us</a></li>
+                                                  <li class=" text-center  h4  col-md-3"><a href=""class="text-decoration-none text-dark">Live Chat</a></li>
+                                                  <li class=" text-center h4  col-md-3"><a href="" class="text-decoration-none text-dark">Shipping</a></li>
+                                                  <li class=" text-center h4  col-md-3"><a href="" class="text-decoration-none text-dark">Terms and Conditions</a></li>
+                                                </ul>
+                                                </nav>
+                                            </div>
+                                            <div class="row w-auto">
+                                              <nav class="navbar bg-dark w-100  p-3 mb-0  d-none d-md-block">
+                                              
+                                            <ul class="nav w-100 list-group-horizontal-md border-0 mb-0 ">
+                                              <li class=" text-center col-md"><ul class="list-group list-group-flush">
+                                              <li class="list-group-item"><strong><a href="" class="text-decoration-none text-success">Information</a></strong></li>
+                                              <li class="list-group-item"><a href="" class="text-decoration-none text-success">Privacy Policy</a></li>
+                                              <li class="list-group-item"><a href="" class="text-decoration-none text-success">About us </a></li>
+                                              <li class="list-group-item"><a href="" class="text-decoration-none text-success">Terms and Conditions</a></li>
+                                            </ul></li>
+                                            <li class=" text-center col-md"><ul class="list-group list-group-flush">
+                                              <li class="list-group-item"><strong><a href="" class="text-decoration-none text-success">User Guide</a></strong></li>
+                                              <li class="list-group-item"><a href="" class="text-decoration-none text-success">Delivery and Payment</a></li>
+                                              <li class="list-group-item"><a href="" class="text-decoration-none text-success">Suggestions and complaints</a></li>
+                                              <li class="list-group-item"><a href="" class="text-decoration-none text-success">Shopping from abroad</a></li>
+                                            </ul></li>
+                                            <li class=" text-center col-md"><ul class="list-group list-group-flush">
+                                              <li class="list-group-item"><strong><a href="" class="text-decoration-none text-success">Our store</a></strong></li>
+                                              <li class="list-group-item"><a href="" class="text-decoration-none text-success">Jobs</a></li>
+                                              <li class="list-group-item"><a href="" class="text-decoration-none text-success">customer reviews</a></li>
+                                              <li class="list-group-item"><a href="" class="text-decoration-none text-success">FAQ</a></li>
+                                            </ul></li>
+                                            <li class=" text-center col-md"><ul class="list-group list-group-flush">
+                                              <li class="list-group-item"><strong><a href="" class="text-decoration-none text-success">Links group 4</a></strong></li>
+                                              <li class="list-group-item"><a href="" class="text-decoration-none text-success">link 1</a></li>
+                                              <li class="list-group-item"><a href="" class="text-decoration-none text-success">link 2</a></li>
+                                              <li class="list-group-item"><a href="" class="text-decoration-none text-success">link 3</a></li>
+                                            </ul></li>
+                                            <li class=" text-center col-md"><ul class="list-group list-group-flush">
+                                              <li class="list-group-item"><strong><a href="" class="text-decoration-none text-success">Links group 5</a></strong></li>
+                                              <li class="list-group-item"><a href="" class="text-decoration-none text-success">link 1</a></li>
+                                              <li class="list-group-item"><a href="" class="text-decoration-none text-success">link 2</a></li>
+                                              <li class="list-group-item"><a href="" class="text-decoration-none text-success">link 3</a></li>
+                                            </ul></li>
+                                             
+                                            </ul>
+                                            </nav>
+                                            </div>
+                                            <div class="row p-3 bg-primary">
+                                              <div class="text col-md-3 h4 text-dark d-none d-md-block">
+                                                Find and follow us on:
+                                              </div>
+                                    
+                                               <div class="row p-3 d-md-flex">
+                                                <div class = "col-12 col-md-6 ">
+                                                  <div class="list-group list-group-horizontal d-flex justify-content-center text-dark">
+                                                    <a class="mr-2 ml-3" href="https://www.facebook.com/"><img src="https://image.flaticon.com/icons/svg/174/174848.svg" style=" width: 30px; height: 30px; margin: 3px;"></a>
+                                                    <a class="mr-2 ml-3" href="https://www.instagram.com/"><img src="https://image.flaticon.com/icons/svg/174/174855.svg" style=" width: 30px; height: 30px; margin: 3px;"></a>
+                                                    <a class="mr-2 ml-3" href="https://twitter.com/explore"><img src="https://image.flaticon.com/icons/svg/174/174876.svg" style=" width: 30px; height: 30px; margin: 3px;"></a>
+                                                    <a class="mr-2 ml-3" href="https://www.youtube.com/"><img src="https://image.flaticon.com/icons/svg/174/174883.svg" style=" width: 30px; height: 30px; margin: 3px;"></a>
+                                                  </div> 
+                                                </div>
+                                              </div>
+                                            <div class="copyright col-md-5 h4 text-dark col-12 text-center">
+                                              © Garegin Grigoryan
+                                            </div>
+                                            <!-- header -->
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+         <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          
+          <button type="submit" class="btn btn-primary">Log in</button>
+        </form>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+      
+   <!-- header -->
+  <!-- Modal -->
+  <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+         <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Name</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Surname</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+  
+          <div class="form-group">
+            <label for="exampleInputPassword1">Email</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+  
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  
+                          
+          </div>
+                                                   
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
